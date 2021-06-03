@@ -1,0 +1,6 @@
+build:
+	npm install
+	npm run build
+	mkdir -p functions
+	go get ./go/api/playlist_data/...
+	go build -o functions/playlist_data ./go/api/playlist_data/...
