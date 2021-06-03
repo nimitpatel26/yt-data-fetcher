@@ -1,6 +1,6 @@
 # YouTube Data Fetcher UI
 ## Introduction
-This is a front-end application made using React and ant.design. It takes in a YouTube playlist url and shows the videos in a grid format. Clicking on the video will link to the video. It calls an AWS lambda function that returns the meta-data about the playlist.
+This is a front-end application made using React and ant.design. It takes in a YouTube playlist url and shows the videos in a grid format. Clicking on the video will link to the video. It calls an AWS lambda function that returns the meta-data about the playlist. This website can be viewed live at [yt.nimitpatel.me](https://yt.nimitpatel.me).
 
 ## File Info
 ### **MainPage.js**
