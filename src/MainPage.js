@@ -24,7 +24,7 @@ function Body(){
 
     return (
         <>
-            <Search className="search" placeholder="Search For Playlist Here!" enterButton="Search" size="large"  loading={searching} onSearch={async (value) => {
+            <Search className="search" placeholder="Enter Playlist URL Here!" enterButton="Search" size="large"  loading={searching} onSearch={async (value) => {
                 setSearching(true);
                 await searchPlaylist(value, () => setSearching(false));
 
